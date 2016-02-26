@@ -78,8 +78,7 @@ public class DBUtil {
         conn.close();
     }
     private static final String driver = "com.mysql.jdbc.Driver";
- //   private static final String url = "jdbc:mysql://localhost:3306/thu_journal?useUnicode=true&characterEncoding=UTF-8";
-    private static final String url = "jdbc:mysql://166.111.120.154:3306/thu_journal?useUnicode=true&characterEncoding=UTF-8";
+    private static final String url = "jdbc:mysql://localhost:3306/thu_journal?useUnicode=true&characterEncoding=UTF-8";
     private static final String user = "root";
     private static final String passwd = "123456";
     private Connection conn=null;
